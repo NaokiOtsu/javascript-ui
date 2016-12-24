@@ -1,0 +1,49 @@
+{
+  "name": "javascript-ui",
+  "version": "1.0.0",
+  "description": "JavaScript UI",
+  "scripts": {
+    "start": "gulp",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "babel": {
+    "presets": [
+      "latest"
+    ]
+  },
+  "eslintConfig": {
+    "extends": "airbnb",
+    "plugins": [
+      "import"
+    ],
+    "rules": {
+      "no-console": 0,
+      "eol-last": 0,
+      "import/no-extraneous-dependencies": 0,
+      "comma-dangle": 0
+    }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/NaokiOtsu/javascript-ui.git"
+  },
+  "author": "Naoki Otsu @melo15",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/NaokiOtsu/javascript-ui/issues"
+  },
+  "homepage": "https://github.com/NaokiOtsu/javascript-ui#readme",
+  "devDependencies": {
+    "babel-preset-latest": "^6.16.0",
+    "browser-sync": "^2.18.5",
+    "del": "^2.2.2",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "gulp": "^3.9.1",
+    "gulp-babel": "^6.1.2",
+    "gulp-eslint": "^3.0.1"
+  }
+}
